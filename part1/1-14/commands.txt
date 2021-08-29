@@ -1,0 +1,6 @@
+front :
+docker run -p 3000:5000 frontti:3
+back :
+docker run -p 5000:8080 backki:3
+
+I should have used different ports, using 5000 in frontend container and as a host's port for backend is confusing.
