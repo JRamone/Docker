@@ -1,6 +1,6 @@
-#bin/bash
+#!/bin/bash
 while true;
 do	
-echo "hello $NAME"
+echo "hello $1"
 sleep 1
 done
